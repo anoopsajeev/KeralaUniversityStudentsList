@@ -1,13 +1,3 @@
-var currentYear = new Date().getFullYear();
-var startYear = 2014;
-var selectElement = document.getElementById('admissionYear');
-      
-for (var i = currentYear; i >= startYear; i--) {
-    var option = document.createElement('option');
-    option.text = option.value = i;
-    selectElement.add(option);
-}
-
 var clgName;
 var courseName;
 var year;
